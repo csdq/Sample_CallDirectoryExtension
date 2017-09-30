@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E04BD4AA1F7E47B600B70211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04BD4A91F7E47B600B70211 /* AppDelegate.swift */; };
+		E04BD4AC1F7E47B600B70211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04BD4AB1F7E47B600B70211 /* ViewController.swift */; };
+		E04BD4AF1F7E47B600B70211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04BD4AD1F7E47B600B70211 /* Main.storyboard */; };
+		E04BD4B11F7E47B600B70211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04BD4B01F7E47B600B70211 /* Assets.xcassets */; };
+		E04BD4B41F7E47B600B70211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04BD4B21F7E47B600B70211 /* LaunchScreen.storyboard */; };
+		E04BD4C31F7E48C100B70211 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04BD4C21F7E48C100B70211 /* CallDirectoryHandler.swift */; };
+		E04BD4C71F7E48C100B70211 /* CallDirectoryExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E04BD4C01F7E48C100B70211 /* CallDirectoryExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E04BD4C51F7E48C100B70211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E04BD49E1F7E47B600B70211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04BD4BF1F7E48C100B70211;
+			remoteInfo = CallDirectoryExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E04BD4CB1F7E48C100B70211 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E04BD4C71F7E48C100B70211 /* CallDirectoryExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E04BD4A61F7E47B600B70211 /* CallDirectoryExtensionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallDirectoryExtensionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04BD4A91F7E47B600B70211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E04BD4AB1F7E47B600B70211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E04BD4AE1F7E47B600B70211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E04BD4B01F7E47B600B70211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E04BD4B31F7E47B600B70211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E04BD4B51F7E47B600B70211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04BD4BB1F7E48AA00B70211 /* CallDirectoryExtensionApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallDirectoryExtensionApp.entitlements; sourceTree = "<group>"; };
+		E04BD4C01F7E48C100B70211 /* CallDirectoryExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallDirectoryExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04BD4C21F7E48C100B70211 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		E04BD4C41F7E48C100B70211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04BD4CC1F7E865900B70211 /* CallDirectoryExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallDirectoryExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E04BD4A31F7E47B600B70211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04BD4BD1F7E48C100B70211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E04BD49D1F7E47B600B70211 = {
+			isa = PBXGroup;
+			children = (
+				E04BD4A81F7E47B600B70211 /* CallDirectoryExtensionApp */,
+				E04BD4C11F7E48C100B70211 /* CallDirectoryExtension */,
+				E04BD4A71F7E47B600B70211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E04BD4A71F7E47B600B70211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04BD4A61F7E47B600B70211 /* CallDirectoryExtensionApp.app */,
+				E04BD4C01F7E48C100B70211 /* CallDirectoryExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E04BD4A81F7E47B600B70211 /* CallDirectoryExtensionApp */ = {
+			isa = PBXGroup;
+			children = (
+				E04BD4BB1F7E48AA00B70211 /* CallDirectoryExtensionApp.entitlements */,
+				E04BD4A91F7E47B600B70211 /* AppDelegate.swift */,
+				E04BD4AB1F7E47B600B70211 /* ViewController.swift */,
+				E04BD4AD1F7E47B600B70211 /* Main.storyboard */,
+				E04BD4B01F7E47B600B70211 /* Assets.xcassets */,
+				E04BD4B21F7E47B600B70211 /* LaunchScreen.storyboard */,
+				E04BD4B51F7E47B600B70211 /* Info.plist */,
+			);
+			path = CallDirectoryExtensionApp;
+			sourceTree = "<group>";
+		};
+		E04BD4C11F7E48C100B70211 /* CallDirectoryExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E04BD4CC1F7E865900B70211 /* CallDirectoryExtension.entitlements */,
+				E04BD4C21F7E48C100B70211 /* CallDirectoryHandler.swift */,
+				E04BD4C41F7E48C100B70211 /* Info.plist */,
+			);
+			path = CallDirectoryExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E04BD4A51F7E47B600B70211 /* CallDirectoryExtensionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04BD4B81F7E47B600B70211 /* Build configuration list for PBXNativeTarget "CallDirectoryExtensionApp" */;
+			buildPhases = (
+				E04BD4A21F7E47B600B70211 /* Sources */,
+				E04BD4A31F7E47B600B70211 /* Frameworks */,
+				E04BD4A41F7E47B600B70211 /* Resources */,
+				E04BD4CB1F7E48C100B70211 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E04BD4C61F7E48C100B70211 /* PBXTargetDependency */,
+			);
+			name = CallDirectoryExtensionApp;
+			productName = CallDirectoryExtensionApp;
+			productReference = E04BD4A61F7E47B600B70211 /* CallDirectoryExtensionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E04BD4BF1F7E48C100B70211 /* CallDirectoryExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04BD4C81F7E48C100B70211 /* Build configuration list for PBXNativeTarget "CallDirectoryExtension" */;
+			buildPhases = (
+				E04BD4BC1F7E48C100B70211 /* Sources */,
+				E04BD4BD1F7E48C100B70211 /* Frameworks */,
+				E04BD4BE1F7E48C100B70211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallDirectoryExtension;
+			productName = CallDirectoryExtension;
+			productReference = E04BD4C01F7E48C100B70211 /* CallDirectoryExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E04BD49E1F7E47B600B70211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iCSDQ;
+				TargetAttributes = {
+					E04BD4A51F7E47B600B70211 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E04BD4BF1F7E48C100B70211 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E04BD4A11F7E47B600B70211 /* Build configuration list for PBXProject "CallDirectoryExtensionApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E04BD49D1F7E47B600B70211;
+			productRefGroup = E04BD4A71F7E47B600B70211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E04BD4A51F7E47B600B70211 /* CallDirectoryExtensionApp */,
+				E04BD4BF1F7E48C100B70211 /* CallDirectoryExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E04BD4A41F7E47B600B70211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04BD4B41F7E47B600B70211 /* LaunchScreen.storyboard in Resources */,
+				E04BD4B11F7E47B600B70211 /* Assets.xcassets in Resources */,
+				E04BD4AF1F7E47B600B70211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04BD4BE1F7E48C100B70211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E04BD4A21F7E47B600B70211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04BD4AC1F7E47B600B70211 /* ViewController.swift in Sources */,
+				E04BD4AA1F7E47B600B70211 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04BD4BC1F7E48C100B70211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04BD4C31F7E48C100B70211 /* CallDirectoryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E04BD4C61F7E48C100B70211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04BD4BF1F7E48C100B70211 /* CallDirectoryExtension */;
+			targetProxy = E04BD4C51F7E48C100B70211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E04BD4AD1F7E47B600B70211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04BD4AE1F7E47B600B70211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E04BD4B21F7E47B600B70211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04BD4B31F7E47B600B70211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E04BD4B61F7E47B600B70211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E04BD4B71F7E47B600B70211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E04BD4B91F7E47B600B70211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtensionApp/CallDirectoryExtensionApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CallDirectoryExtensionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csdq.CallDirectoryExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E04BD4BA1F7E47B600B70211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtensionApp/CallDirectoryExtensionApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CallDirectoryExtensionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csdq.CallDirectoryExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E04BD4C91F7E48C100B70211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtension/CallDirectoryExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WERR5EC53U;
+				INFOPLIST_FILE = CallDirectoryExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csdq.CallDirectoryExtensionApp.CallDirectoryExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E04BD4CA1F7E48C100B70211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtension/CallDirectoryExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WERR5EC53U;
+				INFOPLIST_FILE = CallDirectoryExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csdq.CallDirectoryExtensionApp.CallDirectoryExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E04BD4A11F7E47B600B70211 /* Build configuration list for PBXProject "CallDirectoryExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04BD4B61F7E47B600B70211 /* Debug */,
+				E04BD4B71F7E47B600B70211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04BD4B81F7E47B600B70211 /* Build configuration list for PBXNativeTarget "CallDirectoryExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04BD4B91F7E47B600B70211 /* Debug */,
+				E04BD4BA1F7E47B600B70211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04BD4C81F7E48C100B70211 /* Build configuration list for PBXNativeTarget "CallDirectoryExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04BD4C91F7E48C100B70211 /* Debug */,
+				E04BD4CA1F7E48C100B70211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E04BD49E1F7E47B600B70211 /* Project object */;
+}
